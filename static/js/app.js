@@ -1,3 +1,10 @@
+// from data.js
+const tableData = data;
+// get table references
+var tbody = d3.select("tbody");
+
+
+
 function buildTable(data) {
     // First, clear out any existing data
     tbody.html("");
@@ -18,10 +25,12 @@ function buildTable(data) {
     });
   }
 
-  function handleClick() {
+function handleClick() {
     // Grab the datetime value from the filter
     let date = d3.select("#datetime").property("value");
     let filteredData = tableData;
+    console.log(date)
+    console.log(filteredData)
   
      // Check to see if a date was entered and filter the
     // data using that date.
@@ -29,6 +38,7 @@ function buildTable(data) {
       // Apply `filter` to the table data to only keep the
       // rows where the `datetime` value matches the filter value
       filteredData = filteredData.filter(row => row.datetime === date);
+      console.log(filteredData)
     };
   
      // Rebuild the table using the filtered data
