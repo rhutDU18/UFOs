@@ -6,10 +6,7 @@ The purpose of this analysis was working with Dana to create a table organizing 
 ## Results 
 
 Users have 5 different filters they can chose from which can help better define and narrow down a search.  For example, a user interested in seeing accounts of sightibgs in certain states can scroll down to the 3rd filter and search a state by abbreviation. In this case the user is curious about Colorado and will select the filter "co" to access all logged UFO reports in the state from 2010.
-![This is an image]( 
-
-
-![This is an image](
+![This is an image](https://github.com/rhutDU18/UFOs/blob/main/static/images/UFO_Table_CO.png)
 
 ### Summary
 
