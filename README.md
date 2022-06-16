@@ -12,7 +12,7 @@ The purpose of this analysis was workig with Dana to create a table organizing U
 
 ### Summary
 
-You need to reload the page 
+One drawback about this webpage is that you need to reload the page to clear the filter. 
 
 
 
